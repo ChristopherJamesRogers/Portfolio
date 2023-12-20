@@ -1,0 +1,270 @@
+
+
+body {
+    overflow-y: scroll; overflow-x: hidden;
+}
+.head {
+    background-color:#342F2F;
+}
+
+.container2 {
+    background-color: #342F2F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    height: 100vh;
+    width: 100vh;
+    flex-basis: 50px;
+
+    }
+    
+.profile-img {  
+    float: right;
+    top: 93px;
+    
+    position: absolute;
+    right: 120px;
+    height: 330px;
+    width: 310px;
+}
+
+.profile-icon {  
+    display:flex;
+    float: right;
+    flex-direction: column;
+    top: 77px;
+    position: absolute;
+    right: 80px;
+    height: 90vh;
+    width: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.icon1 {
+    position: relative;
+    top: 15px;
+}
+
+
+.name1 {
+    color: aliceblue;
+    font-size: 79px;
+    position: relative;
+    top: 70px;
+    left: 100px;
+    
+}
+
+
+.lead1 {
+    
+    position: relative;
+    font-size: 30px;
+    top: 80px;
+    left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.lead {
+    font-size: larger;
+    font-size: 200%;
+    color: aliceblue;
+    position: relative;
+    top: 80px;
+    left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container3 {
+    width: 100vh;
+    animation: fade linear both;
+    animation-timeline: view();
+    animation-range: entry 40% cover 50%;
+}
+   
+@keyframes fade {
+from {
+    opacity: 0;
+}
+to {
+    opacity: 1;
+}
+
+}
+
+
+.about {
+    display: flex;
+    position: relative;
+    left: 40px;
+    height: 310px;
+    width: 500px;
+   
+    color: #342F2F ;
+    justify-content:center;
+    grid-area: 1 / 1 / 2 / 2;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    
+}
+.hobbies {
+    display: flex;
+    position: relative;
+    bottom: 70px;
+    left: 40px;
+    height: 310px;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  #342F2F;
+    justify-content: center;
+    grid-area: 2 / 1 / 2 / 4;
+    font-size: 18px;
+}
+
+.pic {
+    display: flex;
+    justify-content: center;
+    height: 380px;
+    position: relative;
+    left: 270px;
+    bottom: 20px;
+    border: solid 3px rgb(152, 165, 190);
+    border-radius: 10%;
+    align-items: center;
+    grid-area: 1 / 2 / 3 / 3;
+   
+}
+
+
+.containerme {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 450px;
+    position: relative;
+    animation: fade linear both;
+    animation-timeline: view();
+    animation-range: entry 90% cover 50%;
+}
+.container4 {
+    display: grid;
+    height: 600px;
+    position: relative;
+    left: 75px;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    gap: 40px; 
+    animation: fade linear both;
+    animation-timeline: view();
+    animation-range: entry 30% cover 50%;
+}
+
+
+
+.btn {
+    position: relative;
+    top: 4px;
+}
+
+
+.view {
+    position: relative;
+    left: 98px;
+    top: 60px; 
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+    
+
+
+.nav {
+    font-weight: 600;
+    font-size: large;
+    justify-content: center;
+    gap: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+   
+}
+
+.logo {
+    border-radius: 50%;
+    height: 60px;
+    border: solid rgb(152, 165, 190);
+    position: relative;
+    left: 20px;
+    top: 3px;
+}
+.logo2 {
+    border-radius: 50%;
+    height: 60px;
+    border: solid rgb(152, 165, 190);
+    position: relative;
+    left: 54px;
+    top: 3px;
+}
+
+.title {
+    color: #342F2F;
+    font-size: 30px;
+}
+
+
+
+.title1 {
+    position: relative;
+    top: -20px;
+    font-size: 45px;
+    height: 50px;
+    color: #342F2F;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title2 {
+   
+    font-size: 50px;
+    height: 50px;
+    color: #342F2F;
+   
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title3 {
+    font-size: 30px;
+    height: 50px;
+    color: #342F2F;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info {
+    font-size: 30px;
+    position: relative;
+    top: -50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.description {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #342F2F;
+    font-size: 20px;
+}
+
+
+.content {
+    height: 80vh;
+   
+    background-color: #342F2F;
+    animation: fade linear both;
+    animation-timeline: view();
+    animation-range: entry 30% cover 50%;
+}
+.form {
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pro5 {
+    border-radius: 10px;
+}
